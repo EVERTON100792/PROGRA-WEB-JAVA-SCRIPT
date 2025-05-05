@@ -1,0 +1,1 @@
+console.log('everton','idade:', 35)
