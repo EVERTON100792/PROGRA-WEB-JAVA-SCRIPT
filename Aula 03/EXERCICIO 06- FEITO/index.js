@@ -6,5 +6,5 @@ let classificacao = 'Proibido para menores de 15 anos'
 console.log('TITULO FILME:', filme)
 console.log('ANO DE LANCAMENTO:', Ano)
 console.log('DURACAO DO FILME:', Duracao,'Minutos')
-console.log('CLASSIFICACAO:',classificacao)
+console.log('CLASSIFICACAO:', classificacao)
 
