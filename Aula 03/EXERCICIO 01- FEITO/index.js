@@ -27,7 +27,7 @@ let numero = 4;
 console.log(Numero);
 
 
-('1. Qual é a saída da função console.log() nas linhas 2, 3, 5 e 6?')
+//1. Qual é a saída da função console.log() nas linhas 2, 3, 5 e 6?')
 
 let flag = true
 console.log("Valor:", flag)   ('Aqui a funcao e imprimir o nome Valor no console')

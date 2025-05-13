@@ -1,10 +1,19 @@
-let filme = "Veloses e Furiosos"
-let Ano = 'Lancado em 2005'
-let Duracao = 120
-let classificacao = 'Proibido para menores de 15 anos'
+//6. Declare variáveis para armazenar as seguintes informações sobre um filme:
 
-console.log('TITULO FILME:', filme)
-console.log('ANO DE LANCAMENTO:', Ano)
-console.log('DURACAO DO FILME:', Duracao,'Minutos')
-console.log('CLASSIFICACAO:', classificacao)
+//O título do filme.
+//O ano de lançamento.
+//A duração em minutos.
+//Se é classificado como adequado para maiores de 18 anos.
+
+
+
+let titulofilme = "Veloses e Furiosos"
+let anolancamento = 'Lancado em 2005'
+let Duracao = 120
+let classificacaomaioridade = false
+
+console.log('Titulo filme:', titulofilme)
+console.log('Ano de lancamento:', anolancamento)
+console.log('duracao do filme:', Duracao,'Minutos')
+console.log('classificacao para maiores de 18 anos:', classificacaomaioridade)
 
