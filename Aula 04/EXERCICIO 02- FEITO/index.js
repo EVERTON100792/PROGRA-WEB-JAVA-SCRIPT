@@ -10,6 +10,8 @@ console.log(`subtração: ${numero01 - numero02}`)
 console.log(`Multiplicação: ${numero01 * numero02}`)
 console.log(`Resto da divisão: ${numero01 % numero02}`)
 
+	
+
 
 
 
