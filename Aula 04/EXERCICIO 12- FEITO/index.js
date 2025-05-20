@@ -18,13 +18,7 @@ console.log(`Circunferencia do circulo: ${2 * valorpi * raio}`)
 
 
 
-let Raio = 7
-let pi = 3.14
-let areapi = raio **2
-let Circunferencia = 2 * pi * raio
 
-console.log('Area do circulo '=  areapi)
-console.log('Circunferencia do circulo ' = Circunferencia)
 
 
 

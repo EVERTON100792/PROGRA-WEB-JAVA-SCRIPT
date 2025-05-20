@@ -10,3 +10,11 @@ let resultado_hora_trabalhada = salario / horas_por_mes
 console.log(resultado_hora_trabalhada)
 
 console.log(`Valor recebido por hora trabalhada: ${salario / horas_por_mes}`)
+
+
+let Salario = 1500
+let vAlordia= 1500 / 22
+console.log(' Valor dia :' , vAlordia.toFixed(2))
+
+let Valorhora = vAlordia / 8
+console.log('Valor hora=' , Valorhora.toFixed(2))
