@@ -2,5 +2,7 @@
 
 let basetriangulo = 10
 let alturatriangulo = 5
+let area = basetriangulo * alturatriangulo / 2
 
-console.log(`Area do Triangulo = ${basetriangulo * alturatriangulo / 2}`)
+console.log(`Area do triangulo é = ${area}`)
+console.log(`Area do triangulo = ${(basetriangulo * alturatriangulo) / 2}`)

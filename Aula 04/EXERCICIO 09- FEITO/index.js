@@ -8,4 +8,4 @@ let mensagem = ' litros '
 
 console.log(resultado + mensagem)
 
-console.log(`Consumo medio em km = ${distancia_Percorrida / litros}`)  
+console.log(`Consumo medio = ${distancia_Percorrida / litros} Km/l`)  

@@ -11,3 +11,12 @@ console.log(valor_final)
 
 console.log(`Valor final do produto = ${valorproduto - resultadoDesconto}`)
 
+
+
+
+let valorProduto= 200
+let desconto= 15
+let valordesconto = valorproduto * 15  / 100
+let valorfinal= valorProduto - valordesconto
+
+console.log(`Valor final do produto = ${valorproduto- valordesconto} `)

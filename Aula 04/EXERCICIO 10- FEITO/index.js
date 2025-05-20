@@ -12,8 +12,16 @@ let valor_imposto = 10
 let resultado = total_compra + valor_imposto
 
 
-
-
 console.log(resultado)
 
 console.log(`Valor total com imposto = ${total_compra + valor_imposto}`)
+
+
+let Produto01 = 45
+let Produto02= 30
+let Produto03 = 25
+let totalCompra= produto01 + produto02 + produto03
+let valorImposto = (totalCompra * 0.10)
+let valorfinalProduto = totalCompra + valorImposto
+
+console.log(`Valor final produto= \R$ ${valorfinalProduto}`)

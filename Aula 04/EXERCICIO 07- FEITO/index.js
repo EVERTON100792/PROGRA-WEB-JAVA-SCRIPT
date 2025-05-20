@@ -3,8 +3,8 @@
 let num1 = 8
 let num2 = 9
 let num3 = 7
-let resultado = num1 + num2 + num3 / 3
+let resultado = (num1 + num2 + num3 )/ 3
 
 console.log(resultado) // 1- Forma
 
-console.log(`Media = ${num1 + num2 + num3 / 3}`) // 2- forma
+console.log(`Media igual a = ${(num1 + num2 + num3) /3}`) // 2- forma
