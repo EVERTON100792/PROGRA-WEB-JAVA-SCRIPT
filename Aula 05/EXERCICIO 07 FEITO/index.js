@@ -3,7 +3,7 @@
 let distancia_em_km = (prompt('Insira uma distancia em KM para convertermos em metros e centimetros'))
 
 let metros= distancia_em_km * 1000
-let centimetros = distancia_em_km * 100000
+let centimetros = metros * 100
 
 console.log(`Km convertido em metros = ${metros}`)
 console.log(`Km convertido em centimetros = ${centimetros}`)
