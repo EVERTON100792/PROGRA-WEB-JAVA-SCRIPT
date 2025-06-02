@@ -1,0 +1,1 @@
+//10. Dado um número, verifique se ele é múltiplo de 3 e de 5 ao mesmo tempo.
