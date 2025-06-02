@@ -1,1 +1,0 @@
-//7. Verifique se um número é positivo e maior que 100, ou negativo.

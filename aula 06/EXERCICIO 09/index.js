@@ -1,1 +1,0 @@
-//9. Receba dois números e verifique se pelo menos um deles é negativo.
