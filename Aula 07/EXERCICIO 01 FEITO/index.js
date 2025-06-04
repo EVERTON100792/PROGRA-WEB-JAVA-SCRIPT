@@ -1,4 +1,4 @@
-
+// crie um programa que verifique e informe se um numero é positivo, negativo ou zero
 
 let numero= Number(prompt('digite um numero'))
 
