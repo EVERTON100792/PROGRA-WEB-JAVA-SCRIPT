@@ -8,26 +8,23 @@
 
 
 //if (salario <= 2000) {
-   // console.log('IR isento')
+// console.log('IR isento')
 //} else if (salario <= 3500) {
-    //console.log('10 % de IR =', salario * 0.10)
+//console.log('10 % de IR =', salario * 0.10)
 //} else {
-    //console.log('20 % de IR =', salario * 0.20)
+//console.log('20 % de IR =', salario * 0.20)
 //}
 
 
 let salario = Number(prompt('Digite seu salario'))
-
 let imposto = 0
-let resto = 0
+
 
 if (salario > 3500) {
-    resto = salario - 3500
-    imposto = resto * 0.2
+    imposto = (salario - 3500) * 0.2 + 150
+
+} else if (salario > 2000) {
+    imposto = (salario - 2000) * 0.1
 }
-salario = salario - resto
-if ( salario > 2000) {
-    resto = salario - 2000
-    imposto = imposto + resto * 0.1
-}
+
 console.log(imposto)
