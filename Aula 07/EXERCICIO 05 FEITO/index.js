@@ -2,20 +2,20 @@
 
 let ano = Number(prompt('digite quantos dias tem um ano'))
 
-if (ano % 4 ==0 || ano % 400==0) {
+if (ano % 400 == 0) {
     console.log('ano bissexto')
-}
- else if (ano % 100 !==0) {
+} else if (ano % 4 === 0 && ano % 100 !== 0) {
     console.log('não é um ano bissexto')
-}
-else {
-    console.log('')
+} else {
+    console.log('não é uma nao bissexto')
 }
 
-    
 
-  
- 
- 
-    
+
+
+
+
+
+
+
 

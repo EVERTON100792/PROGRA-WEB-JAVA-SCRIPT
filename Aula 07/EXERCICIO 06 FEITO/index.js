@@ -2,12 +2,11 @@
 //Se a nota for maior ou igual a 60 e as faltas forem menores ou iguais a 5, imprima
 //"Aprovado". Caso contrário, imprima "Reprovado".
 
-let faltas = Number(prompt('digite a quantidade de faltas'))
-let nota = Number(prompt('digite sua nota'))
+let faltas = Number(prompt('Digite a quantidade de faltas'))
+let nota = Number(prompt('Digite sua nota'))
 
-if (nota >= 60 && faltas <=5) {
-    console.log('aprovado')
-}
-else {
-    console.log('reprovado')
+if (nota >= 60 && faltas <= 5) {
+    console.log('Aprovado')
+} else {
+    console.log('Reprovado')
 }
