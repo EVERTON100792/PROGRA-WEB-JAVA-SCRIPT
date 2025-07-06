@@ -4,10 +4,9 @@ let temperatura= Number(prompt('informe a temperatura'))
 
 if (temperatura < 18) {
     console.log('está frio')
-}
-else if (temperatura >=18 && temperatura <=26 ) {
+} else if (temperatura <=26 ) {
     console.log('a temperatura esta agradável')
-}
-else {
+} else {
     console.log('o tempo esta quente')
 }
+
