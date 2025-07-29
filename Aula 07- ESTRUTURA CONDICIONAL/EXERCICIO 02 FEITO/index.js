@@ -1,5 +1,8 @@
 //2. Crie um programa que verifique se um número é par ou ímpar.
 
+
+
+
 let numero= Number (prompt('Digite um numero'))
 
 if (numero % 2 == 0) {
